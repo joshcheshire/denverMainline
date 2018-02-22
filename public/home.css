@@ -68,16 +68,23 @@
     font-size: 32px;
     font-weight: bold;
 }
-.services-header{
+
+.home-services-container{
+text-align: center;
+}
+.home-services-header, .home-contact-header{
     color: white;
     font-family: 'Play', sans-serif;
-    font-size: 28px;
+    font-weight: bolder
 }
 .services-list {
+    list-style: none;
+    margin-left: -37px;
     color: white;
     font-family: 'Play', sans-serif;
-    font-size: 24px;
-    margin-left: -15px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
 }
 .learn-more {
     border-radius: 105px;
@@ -85,7 +92,7 @@
     height: 35px;
     font-family: 'Play', sans-serif;
     font-size: 20px;
-    margin-left: 45px;
+    margin-left: 15px;
 }
 
 .services-container{
@@ -98,4 +105,11 @@
 .service-description{
     font-size: 20px;
     color:white;
+}
+.main-number{
+    color: white;
+    font-family: 'Play', sans-serif;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
 }
