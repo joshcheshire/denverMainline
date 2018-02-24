@@ -52,6 +52,8 @@ text-align: center;
 }
 .learn-more {
     border-radius: 105px;
+    background-color: whitesmoke;
+    border: whitesmoke;
     width: 150px;
     height: 35px;
     font-family: 'Play', sans-serif;
