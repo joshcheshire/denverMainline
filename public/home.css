@@ -2,7 +2,6 @@
     background-image: url("https://images.unsplash.com/photo-1494778924281-cce023ab1acb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2b31676cd54801d04743eeb52f38c758&auto=format&fit=crop&w=934&q=80");
     background-size: cover;
     background-position: center;
-    width:115%;
 }
 
 .navbar-default {
@@ -81,7 +80,8 @@ text-align: center;
 
 @media screen and (max-width: 700px) {
     .main-body {
-    background-size: unset;
+        width: 115%;
+        background-size: unset;
         background-repeat: no-repeat;
     }
     .navbar-default {
@@ -128,7 +128,7 @@ text-align: center;
     }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 700px) and (max-width: 1030px) {
     .body {
         width: 100%
     }
